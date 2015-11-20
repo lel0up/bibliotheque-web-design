@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blueprint: Zoom Slider</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>Blueprint <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>Zoom Slider</h1>
+			<nav>
+				<a href="http://tympanus.net/Blueprints/FilterableProductGrid/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+				<!--a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+				<a href="http://tympanus.net/codrops/?p=24330" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+				<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+			</nav>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/iphone.png" alt="iPhone" />
+						<div class="preview">
+							<img src="images/iphone.png" alt="iPhone app preview" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Chapitre 1</span> JE SUIS UN AUTEUR</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/ipad.png" alt="iPad Mini" />
+						<div class="preview">
+							<img src="images/ipad-content-preview.png" alt="iPad Mini app preview" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Fantastic</span> iPad Mini</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/macbook.png" alt="MacBook" />
+						<div class="preview">
+							<img src="images/macbook-content-preview.jpg" alt="MacBook app preview" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Amazing</span> MacBook</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/imac.png" alt="iMac" />
+						<div class="preview">
+							<img src="images/imac-content-preview.jpg" alt="iMac app preview" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Glorious</span> iMac</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/apple-watch.png" alt="Apple Watch" />
+						<div class="preview rounded">
+							<img src="images/apple-watch-content-preview.png" alt="Apple Watch app preview" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Fabulous</span> Apple Watch</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/iphone-content.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>JE SUIS UN AUTEUR</h2>
+					<h3>Incredible performance for powerful apps</h3>
+					<p>Il est important que les gens précisent dans quel camp ils se rangent et pourquoi, et s’ils pourraient être de parti pris. Une déclaration d’intérêts de la part des membres, en quelque sorte. Donc, je vais vous parler de lecture. Je vais vous dire que les bibliothèques sont importantes. Je vais suggérer que lire de la fiction, lire pour le plaisir, est une des plus importantes activités à laquelle on puisse s’adonner. Je vais lancer un appel passionné pour que les gens comprennent ce que sont les bibliothèques et les bibliothécaires, et qu’il faut les préserver.
+Je suis de parti pris, de façon évidente et gigan- tesque: je suis auteur, souvent auteur de fiction. J’écris pour les enfants et les adultes. Depuis une trentaine d’années, je gagne ma vie par mes mots, en majorité en inventant des choses et en les écrivant. Il est évidemment de mon intérêt que les gens lisent, qu’ils lisent de la fiction, que bibliothèques
+et bibliothécaires continuent à exister et aident à favoriser l’amour de la lecture et des lieux où la lecture peut se pratiquer.
+Donc, en tant qu’auteur, je suis partial.
+Mais je suis beaucoup plus partial en tant que lecteur. Et plus encore en tant que citoyen britannique.
+Je suis venu ici ce soir donner une conférence sous les auspices de la Reading Agency: une organisation humanitaire qui a pour mission d’offrir à chacun les mêmes chances dans la vie en aidant les gens à devenir des lecteurs assurés et enthousiastes. Une organisation qui soutient des programmes d’alphabétisation, des bibliothèques et des individus, et qui encourage ouvertement et effrontément l’action de lire. Parce que, nous dit-elle, tout change, quand on lit.
+Et c’est de ces changements, de cette action de lire que je suis venu vous parler ce soir. Je voudrais parler de ce que la lecture accomplit. Dire à quoi elle sert.
+J’ai assisté un jour à New York à une conférence sur la construction de prisons privées – une énorme industrie en développement, en Amérique. Cette industrie des prisons a besoin de planifier sa croissance future: de combien de cellules va-t-elle avoir besoin ? Combien de détenus y aura-t-il dans quinze ans? Et ils ont découvert qu’on pouvait le prédire très facilement, en utilisant un algorithme assez simple, basé sur la recherche du pourcentage
+d’enfants de dix et onze ans qui ne savaient pas lire. Et qui, à coup sûr, ne lisaient pas pour le plaisir.
+Ce n’est pas un rapport absolu: on ne peut pas affirmer qu’une société instruite n’a aucune crimi- nalité. Mais il y a de très réelles corrélations.
+Et je crois que certaines de ces corrélations, les plus élémentaires, découlent d’un fait très simple. Les gens instruits lisent de la fiction.	<p><a href="https://www.apple.com/iphone-6/technology/">Learn more about this technology &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/ipad-content.jpg" alt="iPad Mini Content" />
+				<div class="content__item-inner">
+					<h2>The iPad Mini</h2>
+					<h3>Desktop-class architecture without a desktop</h3>
+					<p>Don’t let its size fool you. iPad mini 3 is powered by an A7 chip with 64-bit desktop-class architecture. A7 delivers amazing processing power without sacriﬁcing battery life. So you get incredible performance in a device you can take with you wherever you go.</p>
+					<p><a href="https://www.apple.com/ipad-mini-3/performance/">Learn more about Performance &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/macbook-content.jpg" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>The MacBook</h2>
+					<h3>It's the future of the notebook</h3>
+					<p>With the new MacBook, we set out to do the impossible: engineer a full-size experience into the lightest and most compact Mac notebook ever. That meant reimagining every element to make it not only lighter and thinner but also better. The result is more than just a new notebook. It's the future of the notebook.</p>
+					<p><a href="https://www.apple.com/macbook/design/">Learn more about the design &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/imac-content.jpg" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>The iMac</h2>
+					<h3>Engineered to the very last detail</h3>
+					<p>Every new Mac comes with Photos, iMovie, GarageBand, Pages, Numbers, and Keynote. So you can be creative with your photos, videos, music, documents, spreadsheets, and presentations right from the start. You also get great apps for email, surfing the web, sending texts, and making FaceTime calls — there’s even an app for finding new apps.</p>
+					<p><a href="https://www.apple.com/imac/built-in-apps/">Learn more about the iMac's features &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/apple-watch-content.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>The Apple Watch</h2>
+					<h3>Entirely new ways to stay in touch</h3>
+					<p>Apple Watch makes all the ways you're used to communicating more convenient. And because it sits right on your wrist, it can add a physical dimension to alerts and notifications. For example, you’ll feel a gentle tap with each incoming message. Apple Watch also lets you connect with your favorite people in fun, spontaneous ways — like sending a tap, a sketch, or even your heartbeat. </p>
+					<p><a href="https://www.apple.com/watch/new-ways-to-connect/">Learn more about new ways to connect &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
