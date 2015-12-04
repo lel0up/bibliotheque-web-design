@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="iconmoon-"], [class*=" iconmoon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
 	font-family: 'icomoon' !important;
 	speak: none;
@@ -24,37 +24,36 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-fiction:before {
+.iconmoon-fiction:before {
 	content: "\e900";
 }
-.icon-quill:before {
+.iconmoon-quill:before {
 	content: "\e902";
 }
-.icon-eyedropper:before {
+.iconmoon-eyedropper:before {
 	content: "\e903";
 }
-.icon-play:before {
+.iconmoon-play:before {
 	content: "\e909";
 }
-.icon-tv:before {
+.iconmoon-tv:before {
 	content: "\e904";
 }
-.icon-floppy-disk:before {
+.iconmoon-floppy-disk:before {
 	content: "\e905";
 }
-.icon-user-tie:before {
+.iconmoon-user-tie:before {
 	content: "\e906";
 }
-.icon-rocket:before {
+.iconmoon-rocket:before {
 	content: "\e907";
 }
-.icon-sphere:before {
+.iconmoon-sphere:before {
 	content: "\e908";
 }
-.icon-man:before {
+.iconmoon-man:before {
 	content: "\e90a";
 }
-.icon-share2:before {
+.iconmoon-share2:before {
 	content: "\e901";
 }
-
