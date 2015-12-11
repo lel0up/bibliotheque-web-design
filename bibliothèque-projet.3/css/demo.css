@@ -51,7 +51,7 @@ html {
 body {
 	font-family: "Avenir", 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #CECECE;
-	background: #222125;
+	background: #ec6525;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -98,8 +98,8 @@ a:hover {
 .bp-header > span {
 	width: 100%;
 	font-weight: 700;
-	font-size: 0.85em;
-	color: #5C5EDC;
+	font-size: 0.7em;
+	color: #35303d;
 	position: relative;
 	z-index: 100;
 	display: block;
